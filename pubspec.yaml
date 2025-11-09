@@ -1,0 +1,40 @@
+name: assignment
+description: Flutter Internship Assignment - Host Onboarding
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # API Calls
+  http: ^1.2.1
+
+  # Audio Recording
+  flutter_sound: ^9.2.13
+
+  # Permissions
+  permission_handler: ^11.1.0
+
+  # Video Recording
+  image_picker: ^1.1.2
+
+  # Material Icons (included by default)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # If later you add local images, list them here:
+  assets:
+    - assets/
